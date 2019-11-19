@@ -1,9 +1,7 @@
-
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cordova.hellocordova" version="1.5.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="phonegap-version" value ="cli-9.0.0"/>
-
-<name>CAMARA 2</name>
+  <name>CAMARA 2</name>
   <description>
       Esto es una pagina en PhoneGap
   </description>
@@ -14,7 +12,7 @@
   <plugin name="cordova-plugin-device"/>
   <plugin name="cordova-plugin-device-motion"/>
   <plugin name="cordova-plugin-camera"/>
-    
+   <plugin name=" cordova-plugin-media"/>
   <access origin="*" />
   <allow-intent href="http://*/*" />
   <allow-intent href="https://*/*" />
